@@ -1,0 +1,10 @@
+@charset "utf-8";
+body{background-color:#0B3D91}
+p{color:white;}
+h1,h2,h3,h4,h5,h6{color:#FC3D21;}
+blockquote{color:white;}
+dl,ul,ol{color:white;}
+table{color:white;}
+a{color:#FF0000}
+body{font-family:Arial, Helvetica, sans-serif}
+table, th, td{border: 1px solid #FC3D21;}
