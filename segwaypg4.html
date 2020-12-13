@@ -1,0 +1,60 @@
+<!doctype html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<title>Concept Centaur Contact</title>
+	<link href="Segway.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+		<header role="banner" class="primary">
+	<div id="myMenu">
+		<div class="myWrapper">
+			<nav>
+			<a href="Segway.html"><img src="Assets/Project Resources/segway_color_logo.gif" alt="logo" height="250"></a>
+			</nav>
+		</div>
+		</div>
+		<nav role="navigation">
+	<ul class="menu">
+		<li><a href="Segway.html">Home</a></li>
+		<li><a href="segwaypg2.html">FAQ</a></li>
+		<li><a href="Segwaypg3.html">About</a></li>
+		<li><a href="segwaypg4.html">Contact</a></li>
+	</ul>
+		</nav>
+	</header>
+	
+	<section id="contact" class="container">
+	<form action="../processing-script.php" method="get">
+		<fieldset>
+			<legend>Personal Info</legend>
+				<label for="name">Your Name:</label><input type="text" id="name" name="name"/>
+				<label for="address">Address:</label><textarea id="address" name="address"></textarea>
+				<label for="Date">Date<input type="date"/></label>
+				<label for="TimeZone">Time Zone</label>
+			<select id="favoriteColorName">
+					<option value="---">---</option>
+					<option value="E">Eastern</option>
+					<option value="C">Central</option>
+					<option value="M">Mountain</option>
+					<option value="P">Pacific</option>
+			</select>
+			<input type="submit" value="Submit Info"/>
+		</fieldset>
+	</form>
+	</section>
+	
+	<footer role="banner" class="primary">
+	<nav class="primary">
+		<ul>
+			<li><a href="">Home</a></li>
+			<li><a href="#top">Top of Page</a></li>
+			<li><a href="segwaypg4.html">Contact</a></li>
+		</ul>
+	</nav>
+	</footer>
+</body>
+</html>
