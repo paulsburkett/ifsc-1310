@@ -1,0 +1,183 @@
+@charset "utf-8";
+body
+{
+	padding:50px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	text-align:center;
+}
+
+header.primary
+{
+	padding-top:40px;
+	padding-right:40px;
+	padding-bottom:20px;
+	padding-left:40px;
+	text-align: center;
+	font-size:40px;
+}
+header.primary nav
+{
+	margin:20px auto;
+	width:auto;
+}
+header.primary nav ul
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	padding:0px;
+}
+header.primary nav li
+{
+	list-style-type: none;
+	padding:10px;
+}
+header.primary nav li a:link, header.primary nav li a:visited
+{
+	color:white;
+	text-decoration:gray;
+	background-color: #4C74A4;
+	padding: 8px 16px;
+	border-radius: 20px;
+	transition:.6s;
+}
+header.primary nav li a:hover, header.primary nav li a.active
+{
+	background-color:#5784A8
+}
+h1, h2, h3, h4
+{
+text-align: center;	
+}
+p
+{
+	padding: 5px;
+}
+ul
+{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+}
+table
+{
+	width:100%;
+	border: 0px solid;
+	border-collapse: collapse;
+}
+td
+{
+	border: 0px solid;
+	padding: 20px;
+	font-size: 20px;
+}
+dt
+{
+	text-decoration:underline;
+	padding:5px;
+}
+.container
+{
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+}
+.position
+{
+	width:15%;
+	text-align: center;
+	background-color: #406C9A;
+	color:white;
+	border-radius: 20px;
+	
+}
+.logo img
+{
+	width:20%;
+	height:auto;
+	padding-bottom: 5px;
+	align-items: center;
+}
+.menu li
+{
+	display: inline;
+}
+.menu a
+{
+	display: block;
+	padding:8px;
+	background-color: #3B7EA8;
+	color: #FBFBFB;
+	text-decoration: none;
+}
+.centaur
+{
+	align-items:center;
+	
+}
+section#content
+{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	border-bottom:1px solid;
+	padding-bottom: 2.8em;
+}
+#content article.post
+{
+	width: 30%;
+	box-shadow: 0 4px 8px;
+	padding:10px;
+	transition:.6s;
+}
+#content article.post:hover
+{
+	box-shadow: 0px 8px 16px;
+}
+#content .post figure
+{
+	margin: 0;
+}
+#content .post figure{
+  margin:0;
+}
+#content .post a:link .post a:visited{
+color:cornflowerblue;
+}
+#content article{
+  font-size:.8rem;
+}
+aside[role="complementary"]
+{
+	padding:40px;
+}
+aside .content
+{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
+aside article.widget
+{
+	width: 32vw;
+}
+aside article a:hover a:link
+{
+	display: block;
+	margin-top: 20px;
+	letter-spacing:1px;
+}
+aside article a:hover, aside article a:active
+{
+	text-decoration:none;
+}
+aside article footer
+{
+	display:none;
+}
+.steering dt
+{
+	text-design: underline;
+}
+
+
